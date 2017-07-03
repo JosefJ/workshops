@@ -1,0 +1,7 @@
+{
+  "default": {
+    "enabled": false,
+    "provider": "whisper",
+    "available_providers": ["whisper", "orbit"]
+  }
+}

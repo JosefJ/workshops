@@ -1,0 +1,25 @@
+#holder {
+    border: 10px dashed #ccc;
+    height: 150px;
+    line-height: 110px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#holder.hover {
+    border: 10px dashed #333;
+}
+
+#hashholder {
+    margin: 20px 0px;
+}
+
+#hash {
+    text-align: center;
+}
+
+
