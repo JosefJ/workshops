@@ -1,4 +1,4 @@
-Instructions on how to
+Instructions on how to run apps build during the workshops:
 
 ## Setup
 ### Start a container
@@ -23,7 +23,7 @@ $ embark run
 
 Open: localhost:8000 in your browser (without Metamask extension)
 
-### Start embark with testnet (connects to my server)
+### Start embark with testnet (connects to my testnet node)
 go to workshop<number> folder
 ```
 $ embark run testnet
