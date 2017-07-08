@@ -1,0 +1,16 @@
+{
+  "default": {
+    "enabled": false,
+    "ipfs_bin": "ipfs",
+    "provider": "ipfs",
+    "available_providers": ["ipfs"],
+    "host": "0.0.0.0",
+    "port": 5001
+  },
+  "development": {
+    "enabled": false,
+    "provider": "ipfs",
+    "host": "127.0.0.1",
+    "port": 5001
+  }
+}

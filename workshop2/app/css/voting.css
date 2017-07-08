@@ -1,0 +1,47 @@
+body {
+  background-image: url(../images/bg.jpeg);
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+div {
+  margin: 30px;
+}
+
+#name {
+
+}
+
+#name input[type="text"] {
+  width: 320px;
+}
+
+
+#descriptions textarea[name="description"] {
+  width: 320px;
+  max-width: 320px;
+  min-height: 100px;
+}
+
+#options table{
+  width: 320px;
+}
+#options table > tbody > tr > td > input[type="text"]{
+  width: 75%;
+}
+
+#openness {
+
+}
+
+#openness textarea[name="participants"] {
+  width: 320px;
+  max-width: 320px;
+  min-height: 100px;
+  overflow: hidden;
+  /*display: none;*/
+}
+
+#finalize {
+
+}
