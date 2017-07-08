@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title> Workshop #2 - Decentralized voting </title>
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- TODO: erase before release -->
+    <link rel="stylesheet" href="css/voting.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1> Workshop #2 - Decentralized voting</h1>
+        <div>
+            <div id="name">
+              <h3> Name of the voting contract </h3>
+              <input type="text">
+            </div>
+            <div id="descriptions">
+              <h3> Description of the voting contract </h3>
+              <textarea name="description">Place your description here</textarea>
+            </div>
+            <div id="options">
+              <table>
+                  <tr>
+                    <td> <input type="text" value="Option 1"> <button class="delete"> delete </button></td>
+                  </tr>
+                  <tr>
+                    <td> <input type="text" value="Option 2"> <button class="delete"> delete </button></td>
+                  </tr>
+                  <tr class="ignore">
+                    <td> <input type="text" value="Option 3"> <button class="add"> add new </button></td>
+                  </tr>
+              </table>
+            </div>
+            <div id="openness">
+              <h3> Public or permissioned voting? </h3>
+              <input type="radio" name="openness" value="open" checked> Public <br>
+              <input type="radio" name="openness" value="closed" > Permissioned <br>
+              <div id="voters">
+                <h4> Paste addresses of voters - one at a line.</h4>
+                <textarea name="participants">address1,&#13;&#10;address2,&#13;&#10;</textarea>
+              </div>
+            </div>
+
+            <div id="finalize">
+              <input type="submit">
+            </div>
+          </div>
+    </div>
+
+  </body>
+  <script src="js/app.js"></script>
+
+  <!-- TODO: erase before release -->
+
+  <script src="js/_vendor/jquery.min.js"></script>
+  <script src="js/_vendor/bootstrap.min.js"></script>
+  <script src="js/voting.js"></script>
+
+
+</html>
