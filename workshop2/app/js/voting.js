@@ -4,7 +4,7 @@
 
 // option pool
 
-var options = [];
+
 
 $('.delete').on('click', function(){
     $(this).closest('tr').remove();
@@ -22,9 +22,22 @@ $('.add').on('click', function(){
 
 // collect all options to option pool variable
 function collectOptions() {
+    var options = [];
     $('#options').find('table > tbody > tr').each(function(){
         if (!$(this).hasClass('ignore')) {
            options.push($(this).find('input').val());
         }
     })
+    return options;
+}
+
+// send voting
+
+function startNewBallot() {
+    name = $('#name input[type="text"]').val();
+    description = $('#descriptions textarea[name="description"]').val();
+    options = collectOptions();
+    publicVoting = $('input[name=openness]:checked', '#openness').val();
+    participants = $('textarea[name=participants]', '#voters').val().split('\n');
+    votingTemplate.deploy(name, description, options, publicVoting, participants)
 }

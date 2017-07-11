@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/app.css">
 
     <!-- TODO: erase before release -->
-    <link rel="stylesheet" href="css/voting.css">
+    <!--<link rel="stylesheet" href="css/voting.css">-->
 
   </head>
   <body>
@@ -19,6 +19,8 @@
               <h3> Description of the voting contract </h3>
               <textarea name="description">Place your description here</textarea>
             </div>
+
+            <!--
             <div id="options">
               <table>
                   <tr>
@@ -32,10 +34,12 @@
                   </tr>
               </table>
             </div>
+            -->
+
             <div id="openness">
               <h3> Public or permissioned voting? </h3>
-              <input type="radio" name="openness" value="open" checked> Public <br>
-              <input type="radio" name="openness" value="closed" > Permissioned <br>
+              <input type="radio" name="openness" value="true" checked> Public <br>
+              <input type="radio" name="openness" value="false"> Permissioned <br>
               <div id="voters">
                 <h4> Paste addresses of voters - one at a line.</h4>
                 <textarea name="participants">address1,&#13;&#10;address2,&#13;&#10;</textarea>
@@ -53,9 +57,9 @@
 
   <!-- TODO: erase before release -->
 
-  <script src="js/_vendor/jquery.min.js"></script>
-  <script src="js/_vendor/bootstrap.min.js"></script>
-  <script src="js/voting.js"></script>
+  <!--<script src="js/_vendor/jquery.min.js"></script>-->
+  <!--<script src="js/_vendor/bootstrap.min.js"></script>-->
+  <!--<script src="js/voting.js"></script>-->
 
 
 </html>
