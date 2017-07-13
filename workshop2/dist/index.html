@@ -1,53 +1,65 @@
 <html>
   <head>
-    <title>Workshop#1 - Document Timestamping </title>
+    <title> Workshop #2 - Decentralized voting zzz</title>
     <link rel="stylesheet" href="css/app.css">
 
+    <!-- TODO: erase before release -->
+    <!--<link rel="stylesheet" href="css/voting.css">-->
+
   </head>
-  <body class="container">
-    <h3>Workshop#1 - Document Timestamping using Embark</h3>
+  <body>
+    <div class="container">
+      <h1> Workshop #2 - Decentralized voting</h1>
+        <div>
+            <div id="name">
+              <h3> Name of the voting contract </h3>
+              <input type="text">
+            </div>
+            <div id="descriptions">
+              <h3> Description of the voting contract </h3>
+              <textarea name="description">Place your description here</textarea>
+            </div>
 
-    <ul class="nav nav-tabs" role="tablist" id="myTabs">
-      <li role="presentation" class="active"><a href="#blockchain" aria-controls="blockchain" role="tab" data-toggle="tab">DocStamp</a></li>
-      <!--
-      <li role="presentation"><a href="#storage" aria-controls="storage" role="tab" data-toggle="tab">Decentralized Storage (IPFS)<span class="pull-right" id="status-storage"></a></li>
-      <li role="presentation"><a href="#communication" aria-controls="communication" role="tab" data-toggle="tab">P2P communication (Whisper/Orbit)<span class="pull-right" id="status-communication"></span></a></li>
-      -->
-    </ul>
+            <!--
+            <div id="options">
+              <table>
+                  <tr>
+                    <td> <input type="text" value="Option 1"> <button class="delete"> delete </button></td>
+                  </tr>
+                  <tr>
+                    <td> <input type="text" value="Option 2"> <button class="delete"> delete </button></td>
+                  </tr>
+                  <tr class="ignore">
+                    <td> <input type="text" value="Option 3"> <button class="add"> add new </button></td>
+                  </tr>
+              </table>
+            </div>
+            -->
 
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="blockchain">
-        <h3> 1. Select file </h3>
-        <div id="holder">Drop your pdf here</div>
-        <div id="hashholder">
-          <div>Resulting sha3 256 hash:</div>
-          <div id="hash">- - - - -</div>
-        </div>
+            <div id="openness">
+              <h3> Public or permissioned voting? </h3>
+              <input type="radio" name="openness" value="true" checked> Public <br>
+              <input type="radio" name="openness" value="false"> Permissioned <br>
+              <div id="voters">
+                <h4> Paste addresses of voters - one at a line.</h4>
+                <textarea name="participants">address1,&#13;&#10;address2,&#13;&#10;</textarea>
+              </div>
+            </div>
 
-        <script>
-
-        </script>
-
-        <h3> 2. Print the hash into blockchain </h3>
-        <div class="form-group form-inline">
-          <button class="set btn btn-primary">Publish</button>
-        </div>
-
-        <h3> 3. Get the current value </h3>
-        <div class="form-group">
-          <div>
-            current value is <span class="value"></span>
+            <div id="finalize">
+              <input type="submit">
+            </div>
           </div>
-          <button class="get btn btn-primary">Get Value</button>
+    </div>
 
-        </div>
-
-        <h3>Contract Calls</h3>
-        <p>Javascript calls being made: </p>
-        <div class="logs">
-        </div>
-
-      </div>
   </body>
   <script src="js/app.js"></script>
+
+  <!-- TODO: erase before release -->
+
+  <!--<script src="js/_vendor/jquery.min.js"></script>-->
+  <!--<script src="js/_vendor/bootstrap.min.js"></script>-->
+  <!--<script src="js/voting.js"></script>-->
+
+
 </html>

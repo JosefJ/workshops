@@ -7347,78 +7347,50 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
-#holder {
-    border: 10px dashed #ccc;
-    height: 150px;
-    line-height: 110px;
-    text-align: center;
-    font-size: 30px;
-    padding: 10px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+body {
+  text-align: center;
+  text-align: -webkit-center;
+  background-color: #2aabd2;
 }
-
-#holder.hover {
-    border: 10px dashed #333;
-}
-
-#hashholder {
-    margin: 20px 0px;
-}
-
-#hash {
-    text-align: center;
-}
-
-
-
 
 div {
-  margin: 15px;
+  margin: 30px;
 }
 
-.logs {
-  background-color: black;
-  font-size: 14px;
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 8px;
+#name {
+
 }
 
-.tab-content {
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
-  margin: 0px;
+#name input[type="text"] {
+  width: 320px;
 }
 
-.nav-tabs {
-  margin-bottom: 0;
+
+#descriptions textarea[name="description"] {
+  width: 320px;
+  max-width: 320px;
+  min-height: 100px;
 }
 
-.status-offline {
-  vertical-align: middle;
-  margin-left: 5px;
-  margin-top: 4px;
-  width: 12px;
-  height: 12px;
-  background: red;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+#options table{
+  width: 320px;
+}
+#options table > tbody > tr > td > input[type="text"]{
+  width: 75%;
 }
 
-.status-online {
-  vertical-align: middle;
-  margin-left: 5px;
-  margin-top: 4px;
-  width: 12px;
-  height: 12px;
-  background: mediumseagreen;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+#openness {
+
+}
+
+#openness textarea[name="participants"] {
+  width: 320px;
+  max-width: 320px;
+  min-height: 100px;
+  overflow: hidden;
+  /*display: none;*/
+}
+
+#finalize {
+
 }

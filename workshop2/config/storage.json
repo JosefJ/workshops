@@ -4,7 +4,7 @@
     "ipfs_bin": "ipfs",
     "provider": "ipfs",
     "available_providers": ["ipfs"],
-    "host": "0.0.0.0",
+    "host": "localhost",
     "port": 5001
   },
   "development": {

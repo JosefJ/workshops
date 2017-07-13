@@ -7,11 +7,18 @@ $ docker pull buben42/workshops
 $ docker run -it -p 8000:8000 -p 8545:8545 --name workshop -v <path host>:/workshops buben42/workshops bash
 ```
 
-### Start embark demo server with local testRPC (node simulator)
+
+### Start embark demo server with local testRPC (node simulator) IF accessing VM from a host (0.0.0.0 ensures access thought localhost outside of the
+```
+$ testrpc -h 0.0.0.0
+```
+
+### Start embark demo server with local testRPC (node simulator) IF not using VM
 ```
 $ cd workshop<number>
 $ embark simulator
 ```
+
 press ctrl+p+q to leave the container OR start another terminal
 ```
 $ docker exec -it workshop bash

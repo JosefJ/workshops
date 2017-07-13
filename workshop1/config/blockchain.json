@@ -32,7 +32,7 @@
     "light": true,
     "rpcHost": "localhost",
     "rpcPort": 8545,
-    "rpcCorsDomain": "http://localhost:8000",
+    "rpcCorsDomain": "*",
     "account": {
       "password": "config/livenet/password"
     }
@@ -42,7 +42,7 @@
     "networkType": "custom",
     "rpcHost": "localhost",
     "rpcPort": 8545,
-    "rpcCorsDomain": "http://localhost:8000",
+    "rpcCorsDomain": "*",
     "datadir": "yourdatadir",
     "networkId": "123",
     "bootnodes": ""
