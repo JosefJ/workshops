@@ -32,6 +32,7 @@ function collectOptions() {
 }
 
 // send voting
+var newBallot;
 
 function startNewBallot() {
     name = $('#name input[type="text"]').val();
@@ -39,5 +40,7 @@ function startNewBallot() {
     options = collectOptions();
     publicVoting = $('input[name=openness]:checked', '#openness').val();
     participants = $('textarea[name=participants]', '#voters').val().split('\n');
-    votingTemplate.deploy(name, description, options, publicVoting, participants)
+    votingTemplate.deploy([name, description, options, publicVoting, participants]).then(function(responseObj) {
+        newBallot = responseObj;
+    })
 }
