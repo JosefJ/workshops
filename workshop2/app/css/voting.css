@@ -1,13 +1,17 @@
 body {
   text-align: center;
   text-align: -webkit-center;
-  background-color: #2aabd2;
+  /*background-color: #2aabd2;*/
 }
 
 div {
   margin: 30px;
 }
 
+.steps {
+  display: inline-block;
+  vertical-align: top;
+}
 #name {
 
 }
@@ -29,6 +33,9 @@ div {
 #options table > tbody > tr > td > input[type="text"]{
   width: 75%;
 }
+/*#options table > tbody > tr > td > button{*/
+  /*width: 24%;*/
+/*}*/
 
 #openness {
 
