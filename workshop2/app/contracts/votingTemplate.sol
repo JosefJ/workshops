@@ -1,6 +1,5 @@
 pragma solidity ^0.4.7;
 
-
 contract votingTemplate {
 
     // constructor
@@ -19,9 +18,15 @@ contract votingTemplate {
     address[] participants;
     uint[] votes = [0,0];
     //
+
     mapping (address => bool) voted;
 
-    // modifier isAllowed () {}
+    modifier isAllowed () {
+        if (voted[msg.sender]) {
+        throw;
+        }
+    _;
+    }
 
     // functions
     //    function vote(uint option) {
@@ -34,8 +39,9 @@ contract votingTemplate {
     //        }
     //    }
 
-    function vote(uint option) {
-        votes[option] =  votes[option]+1;
+    function vote(uint option) isAllowed {
+            voted[msg.sender] = true;
+            votes[option] =  votes[option]+1;
     }
 
     // constant functions
