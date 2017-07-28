@@ -1,0 +1,22 @@
+{
+  "contract_name": "SafeMath",
+  "code": "60606040523415600b57fe5b5b60338060196000396000f30060606040525bfe00a165627a7a72305820707fa54b7cea75c2351fbf75ae8c7cb29bddd3112e8dbab87a1c94f224bbd5580029",
+  "runtime_bytecode": "60606040525bfe00a165627a7a72305820707fa54b7cea75c2351fbf75ae8c7cb29bddd3112e8dbab87a1c94f224bbd5580029",
+  "real_runtime_bytecode": "60606040525bfe00a165627a7a72305820707fa54b7cea75c2351fbf75ae8c7cb29bddd3112e8dbab87a1c94f224bbd5580029",
+  "swarm_hash": "707fa54b7cea75c2351fbf75ae8c7cb29bddd3112e8dbab87a1c94f224bbd558",
+  "gas_estimates": {
+    "creation": [
+      62,
+      10200
+    ],
+    "external": {},
+    "internal": {
+      "add(uint256,uint256)": null,
+      "div(uint256,uint256)": null,
+      "mul(uint256,uint256)": null,
+      "sub(uint256,uint256)": null
+    }
+  },
+  "function_hashes": {},
+  "abi": []
+}

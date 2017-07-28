@@ -1,0 +1,31 @@
+.bg-custom {
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../images/header.jpg');
+    color: white;
+}
+#interface {
+    padding: 15px;
+    border: 3px solid;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.inputBundle input{
+    display: inline-block;
+    width: 79%;
+    margin-bottom: 10px;
+}
+
+#constants {
+    margin: 15px 0px;
+}
+
+.inputBundle {
+    margin-bottom: 15px;
+}

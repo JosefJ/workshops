@@ -1,0 +1,29 @@
+{
+  "default": {
+    "gas": "auto",
+    "contracts": {
+      "SafeMath": {
+        "deploy": false
+      },
+      "ERC20": {
+        "deploy": false
+      },
+      "ERC20Basic": {
+        "deploy": false
+      },
+      "BasicToken": {
+        "deploy": false
+      },
+      "StandardToken": {
+        "deploy": false
+      },
+      "WorkshopToken": {
+        "deploy": false
+      },
+      "Token": {
+        "deploy": false
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+{
+  "0x219c5a71b53a3133d6f312522e000237e41e5f41cb2d44bc53f6f0262f863810": {
+    "contracts": {
+      "0x40478c4ca13f2909ad2f3603415e0fe73bee1611cbc3cd16443c6f018512da5b": {
+        "name": "BasicToken",
+        "address": "0xde64991c8cb5c410fb5acffe4e05d5d4ab52e022"
+      },
+      "0x9a24665be29b4fb450cf6933096b1de23cedf0e17f28256b06cadafc25376a0d": {
+        "name": "Token",
+        "address": "0x48598e40e3bc1106db48d071351107dcab474257"
+      }
+    },
+    "name": "development"
+  }
+}
