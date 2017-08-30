@@ -38,6 +38,7 @@ contract crowdsourcing is StandardToken{
         //  a) add a "stopped" global boolean variable (true/false)
         //  b) add a requirement for the stop bool to be false in the fallback function using "require(...);" check
         //  c) add a finalization event anc call it in this function
+        //  Hint: use "owner.transfer(this.balance)" to make the transfer
     }
 
     event TokensAssigned(address indexed _to, uint256 _amoumt);
